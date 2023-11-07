@@ -11,7 +11,7 @@ public class Parametres : MonoBehaviour
     public Slider SliderSon;
     
 
-
+    //reb lmaout
     // Start is called before the first frame update
     void Start()
     {
