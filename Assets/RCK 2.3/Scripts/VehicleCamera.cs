@@ -200,7 +200,6 @@ public class VehicleCamera : MonoBehaviour
         thisAngle = Mathf.Clamp(thisAngle, -180, 90);
 
         CarUI.tachometerNeedle.rectTransform.rotation = Quaternion.Euler(0, 0, -thisAngle);
-        CarUI.barShiftGUI.rectTransform.localScale = new Vector3(carScript.powerShift / 100.0f, 1, 1);
 
     }
 
