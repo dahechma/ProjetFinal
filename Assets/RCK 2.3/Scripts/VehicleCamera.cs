@@ -20,6 +20,7 @@ public class VehicleCamera : MonoBehaviour
     public LayerMask lineOfSightMask = 0;
 
     public CarUIClass CarUI;
+    public Camera myxrcamera;
 
 
 
@@ -256,7 +257,7 @@ public class VehicleCamera : MonoBehaviour
 
         ShowCarUI();
 
-        GetComponent<Camera>().fieldOfView = Mathf.Clamp(carScript.speed / 10.0f + 60.0f, 60, 90.0f);
+        myxrcamera.fieldOfView = Mathf.Clamp(carScript.speed / 10.0f + 60.0f, 60, 90.0f);
 
 
 
@@ -293,7 +294,7 @@ public class VehicleCamera : MonoBehaviour
         {
 
             transform.position = cameraSwitchView[Switch - 1].position;
-            transform.rotation = Quaternion.Lerp(transform.rotation, cameraSwitchView[Switch - 1].rotation, Time.deltaTime * 5.0f);
+            //transform.rotation = Quaternion.Lerp(transform.rotation, cameraSwitchView[Switch - 1].rotation, Time.deltaTime * 5.0f);
 
         }
 
