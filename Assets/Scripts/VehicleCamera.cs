@@ -21,6 +21,7 @@ public class VehicleCamera : MonoBehaviour
 
 
 
+    public Camera myxrcamera;
 
     private float yVelocity = 0.0f;
     private float xVelocity = 0.0f;
@@ -136,6 +137,7 @@ public class VehicleCamera : MonoBehaviour
         myRigidbody = target.GetComponent<Rigidbody>();
 
         cameraSwitchView = carScript.carSetting.cameraSwitchView;
+        Switch = 1;
 
     }
 
@@ -169,7 +171,7 @@ public class VehicleCamera : MonoBehaviour
 
         ShowCarUI();
 
-        GetComponent<Camera>().fieldOfView = Mathf.Clamp(carScript.speed / 10.0f + 60.0f, 60, 90.0f);
+        myxrcamera.fieldOfView = Mathf.Clamp(carScript.speed / 10.0f + 60.0f, 60, 90.0f);
 
 
 
@@ -181,32 +183,32 @@ public class VehicleCamera : MonoBehaviour
 
 
 
-        if (Switch == 0)
-        {
-            // Damp angle from current y-angle towards target y-angle
+        // if (Switch == 0)
+        // {
+        //     // Damp angle from current y-angle towards target y-angle
 
-            float xAngle = Mathf.SmoothDampAngle(transform.eulerAngles.x,
-           target.eulerAngles.x + Angle, ref xVelocity, smooth);
+        //     float xAngle = Mathf.SmoothDampAngle(transform.eulerAngles.x,
+        //    target.eulerAngles.x + Angle, ref xVelocity, smooth);
 
-            float yAngle = Mathf.SmoothDampAngle(transform.eulerAngles.y,
-            target.eulerAngles.y, ref yVelocity, smooth);
+        //     float yAngle = Mathf.SmoothDampAngle(transform.eulerAngles.y,
+        //     target.eulerAngles.y, ref yVelocity, smooth);
 
-            // Look at the target
-            transform.eulerAngles = new Vector3(xAngle, yAngle,0.0f);
+        //     // Look at the target
+        //     transform.eulerAngles = new Vector3(xAngle, yAngle,0.0f);
 
-            var direction = transform.rotation * -Vector3.forward;
-            var targetDistance = AdjustLineOfSight(target.position + new Vector3(0, height, 0), direction);
-
-
-            transform.position = target.position + new Vector3(0, height, 0) + direction * targetDistance;
+        //     var direction = transform.rotation * -Vector3.forward;
+        //     var targetDistance = AdjustLineOfSight(target.position + new Vector3(0, height, 0), direction);
 
 
-        }
-        else
+        //     transform.position = target.position + new Vector3(0, height, 0) + direction * targetDistance;
+
+
+        // }
+        // else
         {
 
             transform.position = cameraSwitchView[Switch - 1].position;
-            transform.rotation = Quaternion.Lerp(transform.rotation, cameraSwitchView[Switch - 1].rotation, Time.deltaTime * 5.0f);
+            // transform.rotation = Quaternion.Lerp(transform.rotation, cameraSwitchView[Switch - 1].rotation, Time.deltaTime * 5.0f);
 
         }
 
@@ -216,8 +218,6 @@ public class VehicleCamera : MonoBehaviour
 
     float AdjustLineOfSight(Vector3 target, Vector3 direction)
     {
-
-
         RaycastHit hit;
 
         if (Physics.Raycast(target, direction, out hit, distance, lineOfSightMask.value))
