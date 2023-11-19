@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/OldCar/Materials/InSide.mat.meta
-guid: 318951b3d8d3b9d4d9e64bd3fe1c7004
+<<<<<<<< HEAD:Assets/OldCar/Materials/Steer2.mat.meta
+guid: 9be1cf2a84b2fd24aa9bedc540d87d80
 ========
-guid: f952c082cb03451daed3ee968ac6c63e
-timeCreated: 1432805430
-licenseType: Store
->>>>>>>> Ghaly:Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+guid: 318951b3d8d3b9d4d9e64bd3fe1c7004
+>>>>>>>> Ghaly:Assets/OldCar/Materials/InSide.mat.meta
 NativeFormatImporter:
   userData: 
   assetBundleName: 
