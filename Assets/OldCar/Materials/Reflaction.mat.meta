@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/OldCar/Materials/Reflaction.mat.meta
 guid: 8ea9b5aac7331714082e74f0ca4c67cc
+========
+guid: 318951b3d8d3b9d4d9e64bd3fe1c7004
+>>>>>>>> Ghaly:Assets/OldCar/Materials/InSide.mat.meta
 NativeFormatImporter:
   userData: 
   assetBundleName: 
