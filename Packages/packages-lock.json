@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.unity.ai.navigation": {
+      "version": "1.0.0-exp.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.17.2",
       "depth": 0,
@@ -94,6 +103,18 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
+=======
+    "com.unity.subsystemregistration": {
+      "version": "1.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+>>>>>>> Ghaly
     "com.unity.sysroot": {
       "version": "2.0.7",
       "depth": 1,
@@ -192,14 +213,23 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
+<<<<<<< HEAD
       "version": "4.4.0",
+=======
+      "version": "4.2.1",
+>>>>>>> Ghaly
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
+<<<<<<< HEAD
         "com.unity.xr.legacyinputhelpers": "2.1.7"
+=======
+        "com.unity.xr.legacyinputhelpers": "2.1.7",
+        "com.unity.subsystemregistration": "1.0.6"
+>>>>>>> Ghaly
       },
       "url": "https://packages.unity.com"
     },

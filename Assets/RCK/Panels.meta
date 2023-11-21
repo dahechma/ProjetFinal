@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/RCK/Panels.meta
 guid: a85dd2dd8a89eef41b3f5d20a5e7cd65
+========
+guid: 5a90fbd56456e0a498732361a74efff6
+>>>>>>>> Ghaly:Assets/OldCar/MirrorOldCar.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/OldCar/Materials/Tire.mat.meta
 guid: b9cb6a19942cd2e40aadf823d3f591c4
+========
+guid: 318951b3d8d3b9d4d9e64bd3fe1c7004
+>>>>>>>> Ghaly:Assets/OldCar/Materials/InSide.mat.meta
 NativeFormatImporter:
   userData: 
   assetBundleName: 

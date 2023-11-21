@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/OldCar/Materials/Steer2.mat.meta
 guid: 9be1cf2a84b2fd24aa9bedc540d87d80
+=======
+<<<<<<<< HEAD:Assets/OldCar/Materials/Tire.mat.meta
+guid: b9cb6a19942cd2e40aadf823d3f591c4
+>>>>>>> Ghaly
 ========
 guid: 318951b3d8d3b9d4d9e64bd3fe1c7004
 >>>>>>>> Ghaly:Assets/OldCar/Materials/InSide.mat.meta

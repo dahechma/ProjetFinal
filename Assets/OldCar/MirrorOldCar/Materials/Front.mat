@@ -7,7 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/OldCar/MirrorOldCar/Materials/Front.mat
   m_Name: Front
+========
+  m_Name: MirorBack
+>>>>>>>> Ghaly:Assets/MyPrefabs/Materials/MirorBack.mat
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -41,7 +45,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<<< HEAD:Assets/OldCar/MirrorOldCar/Materials/Front.mat
         m_Texture: {fileID: 8400000, guid: 97a0423b194505e46ba62d3f4d4f35a4, type: 2}
+========
+        m_Texture: {fileID: 8400000, guid: a48b9e89256d17241b0c366d4af8f506, type: 2}
+>>>>>>>> Ghaly:Assets/MyPrefabs/Materials/MirorBack.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:

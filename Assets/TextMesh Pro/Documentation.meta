@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/TextMesh Pro/Documentation.meta
 guid: 8e7e8f5a82a3a134e91c54efd2274ea9
 ========
 guid: 6ab70aee4d56447429c680537fbf93ed
 >>>>>>>> Ghaly:Assets/TextMesh Pro/Fonts.meta
+=======
+guid: 8e7e8f5a82a3a134e91c54efd2274ea9
+>>>>>>> Ghaly
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

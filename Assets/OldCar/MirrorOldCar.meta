@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/OldCar/MirrorOldCar.meta
 guid: 5a90fbd56456e0a498732361a74efff6
+========
+guid: dfd1aa34e4f77854da1b86b20ef96276
+>>>>>>>> Ghaly:Assets/OldCar.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
